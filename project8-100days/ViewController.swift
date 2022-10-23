@@ -8,6 +8,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var cluesLabel: UILabel!
+    var answersLAbel: UILabel!
+    var currentAnswer: UITextField!
+    var scoreLAbel: UILabel!
+    var letterButtons = [UIButton]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
